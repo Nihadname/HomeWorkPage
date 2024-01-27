@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;;
+
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 34px;
+    border-radius: 3px;
+}
+.first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    text-align: center;
+    padding:13rem 20px;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+.first h1{
+    font-size: 5.5rem;
+}
+.first h3{
+    font-size: 1.75rem;
+    margin-bottom: 45px;
+    font-style: italic;
+    font-weight: bold;
+}
+.first a{
+    background-color: #1d809f;
+    transition: 0.8s;
+    
+}
+.first a:hover{
+    background-color: #196d87;
+}
+.second{
+    text-align: center;
+    padding: 13rem 0;
+}
+.second h2{
+    font-size: 2rem;
+}
+.second p{
+font-size: 1.25rem;
+font-weight: 300;
+margin-bottom: 45px;
+}
+.second >a{
+    background-color: #212529;
+}
+.second  p>a{
+    color:#1D809F;
+    font-size: 1.25rem;
+    text-decoration: underline;
+    font-weight: 300;
+    padding: 0;
+    border-radius: 0;
+}
+.third{
+    text-align: center;
+    background-color: #1D809F;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    
+}
+.third h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(236, 184, 7);
+}
+.third h2{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 3rem !important
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+.box {
+    padding: 20px;
+    text-align: center;
+}
+.box span{
+    background-color: #fff;
+    color: #1D809F;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box h4{
+    font-size: calc(1.275rem + 0.3vw);
+    font-weight: bolder;
+    color: #fff;
+}
+.box p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.yellowPart{
+    padding: 18rem 0;
+
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 2;
+}
+.yellowPart h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.yellowPart a{
+    background-color: #1d809f;
+}
