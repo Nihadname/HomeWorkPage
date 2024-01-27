@@ -126,3 +126,24 @@ margin-bottom: 45px;
 .yellowPart a{
     background-color: #1d809f;
 }
+.AnimationPart{
+    text-align: center;
+    padding-top: 7.5rem;
+
+}
+.AnimationPart h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(236, 184, 7);
+}
+.AnimationPart h2{
+    font-size: 3rem;
+    margin-bottom: 3rem ;
+    font-weight: 700;
+
+
+}
+.conatiner2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
