@@ -85,6 +85,7 @@ margin-bottom: 45px;
 .box {
     padding: 20px;
     text-align: center;
+    margin: 0 auto;
 }
 .box span{
     background-color: #fff;
@@ -129,6 +130,8 @@ margin-bottom: 45px;
 .AnimationPart{
     text-align: center;
     padding-top: 7.5rem;
+  margin-bottom: 19.5rem;
+
 
 }
 .AnimationPart h3{
@@ -146,4 +149,129 @@ margin-bottom: 45px;
 .conatiner2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
 }
+.box1{
+    text-align: center;
+    margin: 0 10px; 
+
+
+}
+.box1 img {
+    max-width: 100%; 
+    display: block;
+    border-radius: 5px;
+}
+.column {
+    margin: 0 auto; 
+    max-width: 930px; 
+    padding: 10px;
+    height: 400px;
+  }
+  .square-container{
+    height: 576.4px;
+    width: 864px;
+    position: relative; 
+    overflow: hidden; 
+  }
+  .square{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+  }
+  .compenets{
+    margin: -7px
+
+  }
+  .compenets img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease; /* Add a transition for smooth movement */
+    overflow-y: hidden;
+
+  }
+  .compenets img :hover{
+    transition: clip-path 0.25s ease-out, background-color 0.7s,;
+    background-color: rgba(33, 37, 41, 0.2);
+
+
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 65%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+        text-align: center;
+}
+.text-overlay2{
+    position: absolute;
+    top: 86%;
+    transform: translate(-50%, -50%);
+    left: 38%;
+    font-weight: 300;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.square:hover .compenets img {
+
+    transform: scale(0.9) translateZ(-50px);
+background-color: #1D809F;
+}
+    
+
+  .top-left{
+    top: 0;
+    left: 0;
+  }
+  .top-right{
+    top: 0;
+    right: 0;
+  }
+  .bottom-left{
+    bottom: 0;
+    left: 0;
+  }
+  .bottom-right{
+    bottom: 0;
+    right: 0;
+  }
+  .compenets img{
+    margin: 7px
+  }
+  .TheLastOne{
+    background-color: #1D809F;
+    text-align: center;
+    padding: 7.5rem;
+  }
+  .TheLastOne h2{
+    margin-bottom: 3rem ;
+    font-size: 2rem;
+    font-weight: 700;
+color: #fff;
+
+
+  }
+  .TheLastOne a{
+    background-color: #fff;
+    color: #212529;
+    margin-right: 15px;
+  }
+  .TheLastOne .extra{
+    background-color: #212529;
+    color: #fff;
+  }
+  .map{
+    width:1900px ;
+  height:  30rem;
+}
+  .map iframe{
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+  }
